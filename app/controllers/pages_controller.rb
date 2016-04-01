@@ -3,6 +3,9 @@ class PagesController < ApplicationController
   def paginax
   	@user = User.new
   end
+
+  def landing
+  end
  end
 
 #forbidden attributes

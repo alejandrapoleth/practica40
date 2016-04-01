@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   resources :paginax, :users
+  get 'landing' => "pages#landing"
   get 'pages/paginax'
   root 'pages#paginax'
 
